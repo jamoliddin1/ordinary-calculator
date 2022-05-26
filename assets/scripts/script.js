@@ -71,14 +71,6 @@ function calculate(calcultateType) {
   const firstResult = currentResult;
   let mathOperator;
 
-  
-  /* IT DOESN'T WORK ISNOT A NUMBER 
-  function validateValue(checkIsNaN) {
-    const changeToNum = parseInt(checkIsNaN);
-    return isNaN(changeToNum ? alert('You enter invalid value (number) therefore it stopped') : changeToNum);
-  }
-*/
-
   switch (calcultateType) {
     case 'ADD':
       currentResult += enterUserInput;
